@@ -1,6 +1,15 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	line-height: 1.1em;
+}
+
+/* layout styles for column widths */
+
 .container {
 	margin: 2%;
 	padding: 2%;
+	height: 60vh;
 }
 
 .col-1 {
@@ -57,8 +66,17 @@
 
 /* navigation styles */
 
+header {
+	overflow: auto;
+}
+
+.active {
+	background-color: darkgray;
+}
+
 .nav {
 	height: 30px;
+	background-color: black;
 }
 
 .nav ul {
@@ -66,11 +84,16 @@
 }
 
 .nav li{
-	display: inline;
+	display: inline-block;
 	padding: 10px 0.5% 5px 0.5%;
-	vertical-align: middle;
+	height: 50px;
+}
+
+.nav li:hover {
+	background-color: gray;
 }
 
 .nav a {
 	text-decoration: none;
+	color: white;
 }
