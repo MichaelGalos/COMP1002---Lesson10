@@ -52,10 +52,14 @@
 }
 
 .testBorder {
-	border: 1px solid red;
+	border: 1px dotted red;
 }
 
 /* navigation styles */
+
+.nav {
+	height: 30px;
+}
 
 .nav ul {
 	text-align: right;
@@ -63,7 +67,8 @@
 
 .nav li{
 	display: inline;
-	padding: 0.5%;
+	padding: 10px 0.5% 5px 0.5%;
+	vertical-align: middle;
 }
 
 .nav a {
