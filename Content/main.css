@@ -6,12 +6,6 @@ body {
 
 /* layout styles for column widths */
 
-.container {
-	margin: 2%;
-	padding: 2%;
-	height: 60vh;
-}
-
 .col-1 {
 	width: 8.33%;
 }
@@ -97,3 +91,30 @@ header {
 	text-decoration: none;
 	color: white;
 }
+
+.left {
+	float: left;
+}
+
+.push-1 {
+	margin: 8.33%;
+}
+
+.push-2 {
+	margin: 16.66%;
+}
+
+.container {
+	margin: 2%;
+	padding: 2%;
+	min-height: 60vh;
+	overflow: auto;
+}
+
+.content {
+	padding: 1.5%;
+}
+
+/* footer styles */
+
+
