@@ -57,8 +57,13 @@
 
 /* navigation styles */
 
+.nav ul {
+	text-align: right;
+}
+
 .nav li{
 	display: inline;
+	padding: 0.5%;
 }
 
 .nav a {
