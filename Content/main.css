@@ -60,3 +60,7 @@
 .nav li{
 	display: inline;
 }
+
+.nav a {
+	text-decoration: none;
+}
